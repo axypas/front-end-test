@@ -29,7 +29,6 @@ const PatientList = () => {
       };
     });
   });
-  console.log(patientsPerLevel);
 
   return (
     <div className="patientsContainer">

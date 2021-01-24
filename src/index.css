@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -25,9 +25,41 @@ img {
 }
 
 main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginFormContainer {
   width: 500px;
-  margin: 50px auto;
+  margin: 50px 0;
+  border-radius: 10px;
   padding: 50px;
   background: #f9f9f9;
+}
+
+.patientsContainer {
+  width: 500px;
+  margin: 50px 0;
+}
+
+.patientsContainer h2 {
+  text-transform: uppercase;
+  color: #c6c6c6;
+}
+
+.patientsContainer .patientList {
+  margin: 20px 0;
+}
+
+.patientsContainer .patient {
+  margin: 20px 0;
   border-radius: 10px;
+  background: #f9f9f9;
+  padding: 25px 0 25px 15px;
+  color: #989898;
+}
+
+.patientsContainer .patient span {
+  margin-right: 5px;
 }
